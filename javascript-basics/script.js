@@ -220,8 +220,8 @@
 
 // console.log(`${userRandom} is a random number between 1 and ${useInput}`);
 
-let greeting = "Hello world"
-let firstName = "Max"
-let lastName = "Senat"
-
-console.log(`${greeting} ${firstName} ${lastName}`)
+function alertRandom() {
+    const randomNumber = Math.floor(Math.random() * 6 ) + 1
+    alert(randomNumber)
+}
+alertRandom()
