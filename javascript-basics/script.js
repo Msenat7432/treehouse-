@@ -220,8 +220,32 @@
 
 // console.log(`${userRandom} is a random number between 1 and ${useInput}`);
 
-function alertRandom() {
-    const randomNumber = Math.floor(Math.random() * 6 ) + 1
-    alert(randomNumber)
+// function alertRandom() {
+//     const randomNumber = Math.floor(Math.random() * 6 ) + 1
+//     alert(randomNumber)
+// }
+// alertRandom()
+
+// function isFieldEmpty(){
+//     const field = document.querySelector("info")
+//     if(!field.value){
+//         return true
+//     }else{
+//         return false
+//     }
+    
+// }
+
+// const fieldTest = isFieldEmpty()
+
+// if (fieldTest ){
+//     alert('Please provide your info')
+// }
+
+// function with arguments 
+
+function getArea(length, width, unit){
+const area = width * length;
+return `${area} ${unit}`
 }
-alertRandom()
+console.log(getArea(10, 20, 'sq ft'))
