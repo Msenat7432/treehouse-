@@ -244,8 +244,44 @@
 
 // function with arguments 
 
-function getArea(length, width, unit){
-const area = width * length;
-return `${area} ${unit}`
+// function getArea(length, width, unit){
+// const area = width * length;
+// return `${area} ${unit}`
+// }
+// console.log(getArea(10, 20, 'sq ft'))
+
+//  Program to print elements/character of an string present on odd position, along with the count of those elements/characters in the entire string
+// i.e abbloseckc - b:2,l:1,s:1,c:2 
+// let arr = []
+// arr.length
+// for (let i = 0; i < 2; i++) {
+//     arr[i];
+    
+// }
+
+
+
+// // * Find the 2nd largest and 2nd smallest number in two arrays of numbers combined
+// // I.e. - [10,5,7,2,4,1,24] & [8,23,29,25,40,0,24] -> 2nd Largest : 29 , 2nd Smallest: 1 
+// function arr (arr1, arr2 ){
+//     for (let i = 0; arr < array.length; arr++) {
+//         const element = array[arr];
+        
+//     }
+// }
+// needs to be an if else statment 
+// .filter method
+
+// * Write a program to find the index of a value in a sorted array. If the value does not find return the index where it would be if it were inserted in order.
+
+// implement .sort method
+// needs a for loop
+// if else statement 
+
+
+function max (num1, num2){
+  if (num1 > num2){
+      return num1
+}else {
+    return num1 
 }
-console.log(getArea(10, 20, 'sq ft'))
